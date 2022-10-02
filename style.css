@@ -25,6 +25,10 @@ body {
 .cta a:hover {
   background-color: rgb(82, 80, 184);
 }
+.dates {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
 .home {
   min-height: 100vh;
   display: flex;
@@ -56,7 +60,7 @@ body {
   font-size: 6rem;
 }
 .day {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 .day1 .head {
   font-size: 3rem;
@@ -74,6 +78,9 @@ body {
   line-height: 2rem;
 }
 .day .desc {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 3rem 0;
 }
+/* .rules {
+  display: none;
+} */
