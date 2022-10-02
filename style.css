@@ -63,10 +63,15 @@ body {
 }
 .day .aboutDay {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .day .aboutDay > * {
   width: 50%;
+}
+.day .aboutDay .rulesDesc {
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 .day .desc {
   font-size: 1.25rem;
