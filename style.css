@@ -92,6 +92,9 @@ body {
 /* .rules {
   display: none;
 } */
+.logo {
+  width: 120px;
+}
 
 @media (max-width: 1136px) {
   body {
