@@ -86,6 +86,9 @@ body {
   font-size: 1.5rem;
   padding: 3rem 0;
 }
+.coverMobile {
+  display: none;
+}
 /* .rules {
   display: none;
 } */
@@ -96,7 +99,7 @@ body {
     background-size: cover;
   }
   .cover {
-    display: none;
+    /* display: none; */
   }
   .home .club {
     /* font-family: "Spirax", cursive; */
@@ -112,8 +115,19 @@ body {
     /* font-family: "Underdog", cursive; */
     font-size: 4rem;
   }
+  .cover {
+    display: none;
+  }
+  .coverMobile {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .day .desc {
+    padding: 1rem 0rem;
+  }
 }
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .home .club {
     /* font-family: "Spirax", cursive; */
     font-size: 3rem;
@@ -140,7 +154,7 @@ body {
   }
   .day .desc {
     font-size: 1.25rem;
-    padding: 3rem 0;
+    /* padding: 3rem 0; */
   }
   .day .aboutDay .rulesDesc {
     font-size: 1.25rem;
