@@ -8,7 +8,7 @@ body {
   background: #000 url(./assets/bg.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: 0 -330px;
   color: #fff;
   font-family: "Quicksand", sans-serif;
 }
@@ -61,6 +61,12 @@ body {
 }
 .day {
   min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.day > * {
+  width: 550px;
 }
 .day1 .head {
   font-size: 3rem;
@@ -70,9 +76,7 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.day .aboutDay > * {
-  width: 50%;
-}
+
 .day .aboutDay .rulesDesc {
   font-size: 1.25rem;
   line-height: 2rem;
