@@ -5,9 +5,9 @@
 }
 
 body {
-  background: #000 url(./assets/bg.jpg);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  background: url(./assets/bg.jpg), url(./assets/stars.png);
+  background-size: 100% auto, contain;
+  background-repeat: no-repeat, repeat;
   background-position: 0 -330px;
   color: #fff;
   font-family: "Quicksand", sans-serif;
@@ -57,7 +57,8 @@ body {
   margin: auto;
 }
 .events > .head {
-  font-family: "Spirax", cursive;
+  font-family: "Noto Sans Mono", monospace;
+
   font-size: 6rem;
 }
 .day {
