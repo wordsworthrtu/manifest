@@ -99,7 +99,7 @@ body {
     display: none;
   }
   .home .club {
-    font-family: "Spirax", cursive;
+    /* font-family: "Spirax", cursive; */
     font-size: 4rem;
   }
   .home .heading {
@@ -109,7 +109,7 @@ body {
     font-size: 2rem;
   }
   .home .eventName {
-    font-family: "Underdog", cursive;
+    /* font-family: "Underdog", cursive; */
     font-size: 4rem;
   }
 }
