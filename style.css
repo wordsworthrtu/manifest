@@ -5,12 +5,28 @@
 }
 
 body {
-  background: url(./assets/bg.jpg), url(./assets/stars.png);
+  background: url(./assets/bg.jpg), #000;
   background-size: 100% auto, contain;
   background-repeat: no-repeat, repeat;
   background-position: 0 -330px;
   color: #fff;
   font-family: "Quicksand", sans-serif;
+
+  position: relative;
+}
+.canvas {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  z-index: -1;
+  user-select: none;
+}
+.canvas canvas {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  z-index: -1;
+  user-select: none;
 }
 .cta a {
   text-decoration: none;
@@ -96,7 +112,12 @@ body {
 .logo {
   width: 120px;
 }
-
+footer {
+  height: 10vh;
+  text-align: center;
+  padding: 3rem 0;
+  font-weight: bold;
+}
 @media (max-width: 1136px) {
   body {
     background-position: top;
@@ -163,5 +184,8 @@ body {
   .day .aboutDay .rulesDesc {
     font-size: 1.25rem;
     line-height: 2rem;
+  }
+  .day {
+    margin-bottom: 2rem;
   }
 }
