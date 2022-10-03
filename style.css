@@ -88,3 +88,27 @@ body {
 /* .rules {
   display: none;
 } */
+
+@media (max-width: 1136px) {
+  body {
+    background-position: top;
+    background-size: cover;
+  }
+  .cover {
+    display: none;
+  }
+  .home .club {
+    font-family: "Spirax", cursive;
+    font-size: 4rem;
+  }
+  .home .heading {
+    text-align: center;
+  }
+  .home .presents {
+    font-size: 2rem;
+  }
+  .home .eventName {
+    font-family: "Underdog", cursive;
+    font-size: 4rem;
+  }
+}
