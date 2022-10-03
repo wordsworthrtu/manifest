@@ -113,3 +113,37 @@ body {
     font-size: 4rem;
   }
 }
+@media (max-width: 360px) {
+  .home .club {
+    /* font-family: "Spirax", cursive; */
+    font-size: 3rem;
+  }
+  .home .heading {
+    text-align: center;
+  }
+  .home .presents {
+    font-size: 1.5rem;
+  }
+  .home .eventName {
+    /* font-family: "Underdog", cursive; */
+    font-size: 3rem;
+  }
+  .tagLine {
+    font-size: 0.75rem;
+  }
+
+  .events > .head {
+    font-size: 4rem;
+  }
+  .day1 .head {
+    font-size: 2rem;
+  }
+  .day .desc {
+    font-size: 1.25rem;
+    padding: 3rem 0;
+  }
+  .day .aboutDay .rulesDesc {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+}
