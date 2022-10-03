@@ -99,7 +99,7 @@ body {
 @media (max-width: 1136px) {
   body {
     background-position: top;
-    background-size: cover;
+    background-size: 1000px;
   }
   .cover {
     /* display: none; */
