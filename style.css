@@ -57,7 +57,7 @@ body {
   margin: auto;
 }
 .events > .head {
-  font-family: "Spirax", cursive;
+  font-family: "Noto Sans Mono", monospace;
   font-size: 6rem;
 }
 .day {
