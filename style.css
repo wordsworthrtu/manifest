@@ -36,9 +36,10 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 3rem;
+  font-family: "Noto Sans Mono", monospace;
 }
 .home .club {
-  font-family: "Spirax", cursive;
+  /* font-family: "Spirax", cursive; */
   font-size: 5rem;
 }
 .home .heading {
@@ -48,7 +49,7 @@ body {
   font-size: 2rem;
 }
 .home .eventName {
-  font-family: "Underdog", cursive;
+  /* font-family: "Underdog", cursive; */
   font-size: 6rem;
 }
 .events {
